@@ -1,13 +1,13 @@
 pub use prelude::*;
-mod util;
-mod prelude;
-mod dataframe;
+pub mod util;
+pub mod prelude;
+pub mod dataframe;
 // mod bench;
-mod combinators;
+pub mod combinators;
 // mod experiments;
-mod implement;
-mod mixedtypes;
-mod readcsv;
+pub mod implement;
+pub mod mixedtypes;
+pub mod readcsv;
 
 
 
